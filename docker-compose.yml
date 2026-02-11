@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  storage:
+    build:
+      context: .docker/node
+    env_file:
+      - .env.${APP_ENV:-dev}
+    volumes:
+      - .:/app
