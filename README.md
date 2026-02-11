@@ -1,4 +1,4 @@
-# Mock Server Collections
+# emo-cks
 
 このリポジトリは、開発およびテスト用途で使用する各種モックサーバーを管理するモノレポ（Multi-package repository）です。  
 各モックサーバーは Docker イメージとしてパッケージ化され、GitHub Container Registry (GHCR) を通じて提供されます。
