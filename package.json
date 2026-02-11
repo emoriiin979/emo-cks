@@ -1,0 +1,11 @@
+{
+  "name": "@emoriiin979/emo-cks",
+  "private": true,
+  "workspaces": [
+    "mocks/*"
+  ],
+  "scripts": {
+    "dev:storage": "npm run dev -w mocks/storage",
+    "test:storage": "npm run test -w mocks/storage"
+  }
+}
